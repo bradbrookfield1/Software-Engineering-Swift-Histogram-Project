@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DBFC6552741818200127EA9 /* Swift_Histogram__SwiftUICharts_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFC6542741818200127EA9 /* Swift_Histogram__SwiftUICharts_App.swift */; };
+		5DBFC6572741818200127EA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFC6562741818200127EA9 /* ContentView.swift */; };
+		5DBFC6592741818300127EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBFC6582741818300127EA9 /* Assets.xcassets */; };
+		5DBFC65C2741818300127EA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBFC65B2741818300127EA9 /* Preview Assets.xcassets */; };
+		5DBFC666274181D000127EA9 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 5DBFC665274181D000127EA9 /* SwiftUICharts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DBFC6512741818200127EA9 /* Swift Histogram (SwiftUICharts).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Histogram (SwiftUICharts).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBFC6542741818200127EA9 /* Swift_Histogram__SwiftUICharts_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Histogram__SwiftUICharts_App.swift; sourceTree = "<group>"; };
+		5DBFC6562741818200127EA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DBFC6582741818300127EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DBFC65B2741818300127EA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DBFC65D2741818300127EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBFC65E2741818300127EA9 /* Swift_Histogram__SwiftUICharts_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift_Histogram__SwiftUICharts_.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBFC64E2741818200127EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBFC666274181D000127EA9 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBFC6482741818200127EA9 = {
+			isa = PBXGroup;
+			children = (
+				5DBFC6532741818200127EA9 /* Swift Histogram (SwiftUICharts) */,
+				5DBFC6522741818200127EA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBFC6522741818200127EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBFC6512741818200127EA9 /* Swift Histogram (SwiftUICharts).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBFC6532741818200127EA9 /* Swift Histogram (SwiftUICharts) */ = {
+			isa = PBXGroup;
+			children = (
+				5DBFC6542741818200127EA9 /* Swift_Histogram__SwiftUICharts_App.swift */,
+				5DBFC6562741818200127EA9 /* ContentView.swift */,
+				5DBFC6582741818300127EA9 /* Assets.xcassets */,
+				5DBFC65D2741818300127EA9 /* Info.plist */,
+				5DBFC65E2741818300127EA9 /* Swift_Histogram__SwiftUICharts_.entitlements */,
+				5DBFC65A2741818300127EA9 /* Preview Content */,
+			);
+			path = "Swift Histogram (SwiftUICharts)";
+			sourceTree = "<group>";
+		};
+		5DBFC65A2741818300127EA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5DBFC65B2741818300127EA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBFC6502741818200127EA9 /* Swift Histogram (SwiftUICharts) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBFC6612741818300127EA9 /* Build configuration list for PBXNativeTarget "Swift Histogram (SwiftUICharts)" */;
+			buildPhases = (
+				5DBFC64D2741818200127EA9 /* Sources */,
+				5DBFC64E2741818200127EA9 /* Frameworks */,
+				5DBFC64F2741818200127EA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Histogram (SwiftUICharts)";
+			packageProductDependencies = (
+				5DBFC665274181D000127EA9 /* SwiftUICharts */,
+			);
+			productName = "Swift Histogram (SwiftUICharts)";
+			productReference = 5DBFC6512741818200127EA9 /* Swift Histogram (SwiftUICharts).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBFC6492741818200127EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5DBFC6502741818200127EA9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5DBFC64C2741818200127EA9 /* Build configuration list for PBXProject "Swift Histogram (SwiftUICharts)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBFC6482741818200127EA9;
+			packageReferences = (
+				5DBFC664274181D000127EA9 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
+			productRefGroup = 5DBFC6522741818200127EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBFC6502741818200127EA9 /* Swift Histogram (SwiftUICharts) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBFC64F2741818200127EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBFC65C2741818300127EA9 /* Preview Assets.xcassets in Resources */,
+				5DBFC6592741818300127EA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBFC64D2741818200127EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBFC6572741818200127EA9 /* ContentView.swift in Sources */,
+				5DBFC6552741818200127EA9 /* Swift_Histogram__SwiftUICharts_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5DBFC65F2741818300127EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DBFC6602741818300127EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5DBFC6622741818300127EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swift Histogram (SwiftUICharts)/Swift_Histogram__SwiftUICharts_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "Swift\\ Histogram\\ (SwiftUICharts)/Preview\\ Content Swift\\ Histogram\\ (SwiftUICharts)/Assets.xcassets";
+				DEVELOPMENT_TEAM = L8TH8RB329;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift Histogram (SwiftUICharts)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bradbrookfield1.Swift-Histogram--SwiftUICharts-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5DBFC6632741818300127EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swift Histogram (SwiftUICharts)/Swift_Histogram__SwiftUICharts_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "Swift\\ Histogram\\ (SwiftUICharts)/Preview\\ Content Swift\\ Histogram\\ (SwiftUICharts)/Assets.xcassets";
+				DEVELOPMENT_TEAM = L8TH8RB329;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Swift Histogram (SwiftUICharts)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bradbrookfield1.Swift-Histogram--SwiftUICharts-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBFC64C2741818200127EA9 /* Build configuration list for PBXProject "Swift Histogram (SwiftUICharts)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBFC65F2741818300127EA9 /* Debug */,
+				5DBFC6602741818300127EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBFC6612741818300127EA9 /* Build configuration list for PBXNativeTarget "Swift Histogram (SwiftUICharts)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBFC6622741818300127EA9 /* Debug */,
+				5DBFC6632741818300127EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DBFC664274181D000127EA9 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DBFC665274181D000127EA9 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DBFC664274181D000127EA9 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5DBFC6492741818200127EA9 /* Project object */;
+}
